@@ -14,3 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#result {
+border: 1px dotted rgb(240, 244, 209);
+padding: 2px;
+}
+#result ul {
+list-style-type: none;
+padding: 2px;
+margin: 0;
+}
+#result ul li {
+padding: 3px, 2px, 2px, 3px;
+background: rgb(238, 238, 238);
+}
+#result ul li:hover {
+background: rgb(178, 242, 239);
+}
